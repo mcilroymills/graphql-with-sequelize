@@ -1,6 +1,6 @@
 const Express = require('express')
 const GraphHTTP = require('express-graphql')// express middleware, gets a graphql endpoint spawned quickly
-const Schema = require('./schema')
+const { Schema } = require('./schema')
 
 // Config
 const APP_PORT = 3000
